@@ -34,9 +34,6 @@
     <div class="container">
         <header>
             <div class="nav-bar">
-                <a href="/">
-                    <img src="/pwa/icon-192.png" alt="ExpenseOwl Logo" height="85" style="vertical-align: middle; margin-right: 20px;">
-                </a>
                 <a href="/" class="view-button active" data-tooltip="Dashboard">
                     <i class="fa-solid fa-chart-pie"></i>
                 </a>
@@ -112,15 +109,6 @@
             </div>
         </div>
 
-        <div class="chart-container">
-            <div id="noDataMessage" class="no-data" style="display: none; width: 100%;">No expenses recorded this month.</div>
-            <div class="chart-box">
-                <canvas id="categoryPieChart"></canvas>
-            </div>
-            <div class="legend-box" id="customLegend">
-            </div>
-        </div>
-
         <div id="cashflow-section" class="cashflow-container">
             <div class="cashflow-item income">
                 <div class="cashflow-label">Income</div>
@@ -133,6 +121,15 @@
             <div class="cashflow-item balance">
                 <div class="cashflow-label">Balance</div>
                 <div class="cashflow-value" id="cashflow-balance"></div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="noDataMessage" class="no-data" style="display: none; width: 100%;">No expenses recorded this month.</div>
+            <div class="chart-box">
+                <canvas id="categoryPieChart"></canvas>
+            </div>
+            <div class="legend-box" id="customLegend">
             </div>
         </div>
     </div>
