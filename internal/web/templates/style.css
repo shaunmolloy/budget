@@ -57,12 +57,18 @@ header {
     border-bottom: 1px solid var(--border);
 }
 
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
 .month-navigation {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    position: absolute;
 }
 
 .nav-button, .edit-button {
@@ -856,6 +862,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    margin-left: auto;
 }
 
 .table-controls label {

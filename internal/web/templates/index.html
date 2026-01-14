@@ -27,7 +27,7 @@
             });
         }
     </script>
-    <title>ExpenseOwl Dashboard</title>
+    <title>budget</title>
     <script src="/chart.min.js"></script>
 </head>
 <body>
@@ -46,15 +46,17 @@
             </div>
         </header>
 
-        <div class="month-navigation">
-            <button id="prevMonth" class="nav-button"><i class="fa-solid fa-arrow-left"></i></button>
-            <div class="current-month" id="currentMonth"></div>
-            <button id="nextMonth" class="nav-button"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
+	<div class="actions">
+            <div class="month-navigation">
+                <button id="prevMonth" class="nav-button"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="current-month" id="currentMonth"></div>
+                <button id="nextMonth" class="nav-button"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
 
-        <div class="table-controls">
-            <button id="toggleExpenseFormBtn" class="nav-button"><i class="fa-solid fa-plus"></i> Add Expense</button>
-        </div>
+            <div class="table-controls">
+                <button id="toggleExpenseFormBtn" class="nav-button"><i class="fa-solid fa-plus"></i> Add Expense</button>
+            </div>
+	</div>
 
         <div id="addExpenseContainer" style="display: none;">
             <div class="form-container">
