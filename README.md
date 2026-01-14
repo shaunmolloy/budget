@@ -1,32 +1,25 @@
-<p align="center">
-<img src="/assets/logo.png" alt="ExpenseOwl Logo" width="200" height="200" /><br>
-</p>
+# cashflow
 
-<h1 align="center">ExpenseOwl</h1><br>
+- [#why-create-this](Why Create This) 
+- [#features](Features) 
+- [#screenshots](Screenshots) 
+- [#installation](Installation)
+- [#usage](Usage)
+- [#contributing](Contributing)
 
-<p align="center">
-<a href="https://github.com/tanq16/expenseowl/actions/workflows/release.yml"><img src="https://github.com/tanq16/expenseowl/actions/workflows/release.yml/badge.svg" alt="Release"></a>&nbsp;<a href="https://github.com/Tanq16/expenseowl/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/tanq16/expenseowl"></a>&nbsp;<a href="https://hub.docker.com/r/tanq16/expenseowl"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/tanq16/expenseowl"></a>
-</p>
+---
 
-<p align="center">
-<a href="#why-create-this">Why Create This?</a>&nbsp;&bull;&nbsp;<a href="#features">Features</a>&nbsp;&bull;&nbsp;<a href="#screenshots">Screenshots</a><br><a href="#installation">Installation</a>&nbsp;&bull;&nbsp;<a href="#usage">Usage</a>&nbsp;&bull;&nbsp;<a href="#contributing">Contributing</a>
-</p>
-
-<br>
-
-<p align="center">
-<b>ExpenseOwl</b> is an extremely simple self-hosted expense tracking system with a modern monthly pie-chart visualization and cashflow showcase.
-</p>
+Extremely simple self-hosted expense tracking system with a modern monthly pie-chart visualization and cashflow showcase.
 
 <br>
 
-# Why Create This?
+## Why Create This?
 
 There are a ton of amazing projects for expense tracking across GitHub ([Actual](https://github.com/actualbudget/actual), [Firefly III](https://github.com/firefly-iii/firefly-iii), etc.). They're all incredible! I just don't find them *fast* and *simple*. They offer too many features I never use (like accounts or complex budgeting). *Don't get me wrong!* They're amazing when complexity is needed, but I wanted something ***dead simple*** that gives me a quick monthly look at my expenses. NOTHING else!
 
 So, I created this project and I use it in my home lab for expenses. The primary intention is to track spending across your categories in a simplistic manner. No complications, searching, budgeting. This is *not* a budgeting app; it's for tracking.
 
-# Features
+## Features
 
 ### Core Functionality
 
@@ -63,7 +56,7 @@ The front end of ExpenseOwl can be installed as a Progressive Web App on desktop
 - iOS: Use Safari's "Add to Home Screen" option in the share menu
 - Android: Use Chrome's "Install" option in the menu
 
-# Screenshots
+## Screenshots
 
 Dashboard Showcase:
 
@@ -84,7 +77,7 @@ Dashboard Showcase:
 
 </details>
 
-# Installation
+## Installation
 
 The recommended installation method is Docker. To run the container via CLI, use the following command:
 
@@ -130,7 +123,7 @@ This is a community-contributed Kubernetes spec. Treat it as a sample and review
 
 </details>
 
-# Usage
+## Usage
 
 Once deployed, use the web interface to do everything. Access it through your browser:
 
@@ -217,7 +210,7 @@ Data exported as CSV will include expense IDs, so when importing the same CSV fi
 
 An `Import from ExpenseOwl v3.2-` will be present for v4.X to allow pulling in data from past releases.
 
-# Contributing
+## Contributing
 
 Contributions are welcome; please ensure they align with the project's philosophy of maintaining simplicity by strictly using the current tech stack (Go for backend; HTML, CSS, JS for frontend). It is intended for home lab use, i.e., a self-hosted first approach (containerized use). Consider the following:
 
