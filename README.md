@@ -1,11 +1,11 @@
 # cashflow
 
-- [#why-create-this](Why Create This) 
-- [#features](Features) 
-- [#screenshots](Screenshots) 
-- [#installation](Installation)
-- [#usage](Usage)
-- [#contributing](Contributing)
+- [Why Create This](#why-create-this) 
+- [Features](#features) 
+- [Screenshots](#screenshots) 
+- [Installation](#installation) 
+- [Usage](#usage) 
+- [Contributing](#contributing) 
 
 ---
 
