@@ -1,0 +1,6 @@
+services:
+  cashflow:
+    image: cashflow
+    container_name: cashflow
+    ports:
+      - "8080:8080"
