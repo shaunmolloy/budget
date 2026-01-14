@@ -1,4 +1,4 @@
-# cashflow
+# budget
 
 - [Why Create This](#why-create-this) 
 - [Features](#features) 
