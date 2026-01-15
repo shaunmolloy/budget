@@ -880,3 +880,18 @@ header {
 .table-controls label:hover {
     background-color: var(--accent);
 }
+
+@media (max-width: 480px) {
+    .actions {
+        flex-direction: column;
+    }
+
+    .month-navigation {
+        position: initial;
+    }
+
+    .table-controls {
+        margin-left: initial;
+        margin: 0.75rem;
+    }
+}
